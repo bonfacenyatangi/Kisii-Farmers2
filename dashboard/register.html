@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>SB Admin - Register</title>
+  <title>Register Page</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -20,7 +20,44 @@
 
 </head>
 
-<body class="bg-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+            <div class="navbar-brand">
+                <a href="index.php"><img src="../images/logo3.png" height="50" width="60"></a>
+            </div>
+            <!--  -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Links -->
+            <div class="navbar-collapse collapse" id="menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php"><button type="button" class="btn btn-outline-success">Mkulima</button></a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#"><button type="button" class="btn btn-outline-success">Trends</button></a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button type="button" class="btn btn-outline-success">News</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><button type="button" class="btn btn-outline-success">Tenders</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.php"><button type="button" class="btn btn-outline-success">Gallery</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#background"><button type="button" class="btn btn-outline-success">About Us</button></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php#contact-us"><button type="button" class="btn btn-outline-success">Contact Us</button></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+<body class="bg-dark" style="padding-top: 2.5%;">
 
   <div class="container">
     <div class="card card-register mx-auto mt-5">
@@ -53,18 +90,46 @@
             <div class="form-row">
               <div class="col-md-6">
                 <div class="form-label-group">
-                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-                  <label for="inputPassword">Password</label>
+                  <input type="text" id="farmer_number" class="form-control" placeholder="Farmer's Number" required="required">
+                  <label for="farmer_number">Farmer's Number</label>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-label-group">
-                  <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm password" required="required">
-                  <label for="confirmPassword">Confirm password</label>
+                  <input type="text" id="national_ID" class="form-control" placeholder="National ID" required="required">
+                  <label for="national_ID">National ID</label>
                 </div>
               </div>
             </div>
           </div>
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-label-group">
+                  <input type="text" id="b_center_number" class="form-control" placeholder="Buying Center Number" required="required">
+                  <label for="b_center_number">Buying Center Number</label>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-label-group">
+                  <input type="text" id="tel_number" class="form-control" placeholder="Mobile phone number" required="required">
+                  <label for="tel_number">Mobile phone number</label>
+                </div>
+              </div>
+             </div>
+
+            <div class="form-group" style="center">  
+              <div class="form-row">
+              <div class="col-md-6">
+                <div class="form-label-group">
+                  <input type="password" id="password" class="form-control" placeholder="Password" required="required">
+                  <label for="password">Password</label>
+                </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
           <a class="btn btn-primary btn-block" href="login.html">Register</a>
         </form>
         <div class="text-center">

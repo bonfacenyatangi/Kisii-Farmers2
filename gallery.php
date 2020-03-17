@@ -52,7 +52,7 @@
                         <a class="nav-link" href="gallery.php"><button type="button" class="btn btn-outline-success">Gallery</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#background"><button type="button" class="btn btn-outline-success">About Us</button></a>
+                        <a class="nav-link" href="index.php#background"><button type="button" class="btn btn-outline-success">About Us</button></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact-us"><button type="button" class="btn btn-outline-success">Contact Us</button></a>
@@ -203,7 +203,7 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="#">kisii farmers</a>
   </div>
   <!-- Copyright -->

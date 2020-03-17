@@ -63,7 +63,7 @@
                     <div class="welcome text-center">
                         <div>
                             <h3 class="">Welcome to </h3>
-                            <h1 class="typed">Kisii Tea Development Agency</h1>
+                            <h1 class="typed">Kisii Tea Farmers</h1>
                         </div>
                         <div>
                             <h5>we are the Best farmers who produce high quality tea for Kenya and Abroad.</h5>
@@ -182,7 +182,7 @@
                             <h3>For more Inquiries please Contact:</h3>
                             <hr>
                             <div id="inquiries">
-                                <h5>Kenya Tea Development Agency</h5>
+                                <h5>Kenya Tea Farmers</h5>
                                 <p class="pg">
                                     P.o Box 128-3900, Kisii-Kenya.<br>
                                     Telephone Number : +254798682047 <br>
@@ -300,7 +300,7 @@
   <!-- Footer Links -->
 
   <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="#">kisii farmers</a>
   </div>
   <!-- Copyright -->
@@ -337,7 +337,7 @@ myBgFader.start();
 
 // Code for the typeWritter
 var typewritter = new Typewriter('.typed', { loop: true });
-typewritter.typeString('Kisii Tea Development Agency')
+typewritter.typeString('Kisii Tea Farmers')
     .pauseFor(1000)
     // .deleteChars(6)
     // .pauseFor(500)

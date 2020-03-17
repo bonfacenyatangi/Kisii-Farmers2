@@ -14,7 +14,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Login Page</title>
+  <title>SB Admin - Login</title>
 
   <!-- Custom fonts for this template-->
   <link href="dashboard/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -25,45 +25,7 @@
 
 </head>
 
-<body class="bg-dark" style="padding-top: 5%;">
-
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-            <div class="navbar-brand">
-                <a href="index.php"><img src="images/logo3.png" height="50" width="60"></a>
-            </div>
-            <!--  -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <!-- Links -->
-            <div class="navbar-collapse collapse" id="menu">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.php"><button type="button" class="btn btn-outline-success">Mkulima</button></a>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-outline-success">Trends</button></a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-outline-success">News</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-outline-success">Tenders</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.php"><button type="button" class="btn btn-outline-success">Gallery</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#background"><button type="button" class="btn btn-outline-success">About Us</button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php#contact-us"><button type="button" class="btn btn-outline-success">Contact Us</button></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
+<body class="bg-dark">
 
   <div class="container">
     <div class="card card-login mx-auto mt-5">
@@ -76,9 +38,7 @@
       <?php unset($_SESSION['error']); }  ?>
 
       <div class="card-body">
-
-        <form action="dashboard/test2.php" method="post" id="login-form">
-
+        <form action="test2.php" method="post" id="login-form">
           <div class="form-group">
             <div class="form-label-group">
               <input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required="required" autofocus="autofocus">
@@ -100,7 +60,7 @@
             </div>
           </div>
           <div class="form-group">
-            <button type="submit" name="login-btn" class="btn btn-primary btn-block btn-lg">Login</button>
+            <button type="submit" name="login2-btn" class="btn btn-primary btn-block btn-lg">Login</button>
           </div>
         </form>
         <div class="text-center">
@@ -131,3 +91,6 @@ session_destroy();
 <!-- <script type="text/javascript" src="../plugins/bootstrap/js/bootstrapValidator.js"></script> -->
 <script type="text/javascript" src="plugins/popper/popper.min.js"></script>
 <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+
+<!--  -->
