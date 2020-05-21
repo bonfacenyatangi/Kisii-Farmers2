@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="css/bgfader.css"> 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="css/gallery_style.css" />
+    <link rel="stylesheet"  href="css/style.css">
 	</head>
 	<body>
 
@@ -61,11 +62,11 @@
             </div>
         </nav>
 
-<div">
 
 		<!-- Wrapper -->
-			<div class="wrapper style1" style="padding-top: 10%;">
-
+<div class="wrapper style1" style="padding-top: 10%;">
+  <div class="background" id="background">
+      <div class="p-b-60" id="cards">
 				<!-- Extra -->
 					<div id="extra">
 						<div class="container">
@@ -106,7 +107,7 @@
 						</div>
 					</div>
 	</div>
-
+  </div>
 </div>
 	
 

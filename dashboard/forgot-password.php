@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Reset Password Page</title>
+  <title>Forgot Password Page</title>
 
   <!-- Custom fonts for this template-->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="bg-dark" style="padding-top: 7%;">
+<body class="bg-dark" style="padding-top: 4%">
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
             <div class="navbar-brand">
@@ -64,10 +64,18 @@
       <div class="card-header">Reset Password</div>
       <div class="card-body">
         <div class="text-center mb-4">
-          <h4>Check your email</h4>
-          <p>We have sent you a link to the Email Address you provided to reset your password</p>
+          <h4>Forgot your password?</h4>
+          <p>Enter your email address and we will send you instructions on how to reset your password.</p>
         </div>
-        
+        <form>
+          <div class="form-group">
+            <div class="form-label-group">
+              <input type="email" id="inputEmail" class="form-control" placeholder="Enter email address" required="required" autofocus="autofocus">
+              <label for="inputEmail">Enter email address</label>
+            </div>
+          </div>
+          <a class="btn btn-primary btn-block" href="Reset_P_Success.html">Reset Password</a>
+        </form>
         <div class="text-center">
           <!-- <a class="d-block small mt-3" href="register.html">Register an Account</a> -->
           <a class="d-block small" href="../login.php">Login Page</a>

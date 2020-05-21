@@ -1,5 +1,5 @@
 <?php 
-// Include the connection.phps file on every code the requires a connection to the database
+// Include the connection.php file on every code the requires a connection to the database
 session_start();
 include 'connection2.php';
 if (isset($_POST['login-btn'])) {

@@ -83,6 +83,8 @@
                 <a href="#"><i class="fa fa-instagram"></i></a>
             </span>
         </div>
+
+        <!-- About us -->
         <div class="background" id="background">
             <div class="p-b-60" id="cards">
                 <h2 id="about-header">About Us</h2>
@@ -134,6 +136,8 @@
                 </div>
             </div>
         </div>
+
+        
         <!-- Contact Us Section -->
         <div class="bg p-b-30" id="contact-us">
             <div class="container h-100" id="contact">
